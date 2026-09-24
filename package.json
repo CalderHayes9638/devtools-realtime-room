@@ -1,0 +1,17 @@
+{
+  "name": "devtools-realtime-room",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/devtools_room.ts",
+    "test": "tsx src/devtools_room.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
