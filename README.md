@@ -1,6 +1,6 @@
 # A realtime room for developer-tool sessions
 
-Solo SaaS founder here. Every infra pick is a time-vs-money trade against shipping. Small runnable decision: a build agent gets a scoped client token for one named channel, then we publish a session-start event other dev tools observe. Infrai keeps this as one REST surface and one key, so the TS example stays close to calls a service actually owns.
+The runnable decision is small: a build agent gets a scoped client token for one named channel, then the service publishes the session-start event that other developer tools can observe. Infrai keeps this as one REST surface and one key, so the example stays close to the calls a TypeScript service actually owns.
 
 ## Run the working path
 
